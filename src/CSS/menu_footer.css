@@ -1,0 +1,23 @@
+.footer{
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    padding:5px;
+    cursor:pointer;
+}
+
+.footer .MuiAvatar-root{
+    height:30px;
+    width:30px;
+}
+
+.footer p{
+    margin-left:10px;
+    font-size: 16px;
+    font-weight: 500;
+    color:rgb(67, 64, 64);
+}
+
+.footer:hover{
+    background-color: rgb(211 211 211/41%);
+}

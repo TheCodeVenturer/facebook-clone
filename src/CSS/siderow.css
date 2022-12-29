@@ -1,0 +1,21 @@
+.Sidebar_row{
+    display:flex;
+    align-items: center;
+    padding: 5px 20px;
+    margin-bottom: 10px;
+}
+
+.Sidebar_row p{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size : 14px;
+}
+.Sidebar_row .MuiAvatar-root{
+    width:30px;
+    height:30px;
+}
+
+.Sidebar_row:hover{
+    background-color: rgb(211 211 211/31%);
+    cursor:pointer;
+}

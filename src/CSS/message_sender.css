@@ -1,0 +1,166 @@
+.messagesender{
+    display:flex;
+    flex-direction: column; 
+    background-color: white;
+    width:100%;
+    border-radius: 10px;
+    padding:0 15px;
+    margin-top: 20px;
+    box-shadow: 4px 2px 10px #ccc;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.messagesender_top{
+    margin-top:10px;
+    display:flex;
+    align-items: center;
+    flex:1;
+}
+
+.messagesender_top .MuiAvatar-root{
+    cursor: pointer;
+}
+.messagesender_top form{
+    background-color: rgb(211 211 211/31%);
+    padding: 10px;
+    border-radius:20px;
+    margin-left: 10px;
+    flex:1;
+    cursor:pointer;
+}
+
+.messagesender_top form input{
+    width:100%;
+    height:100%;
+    font-size: 16px;
+    font-weight: 510;
+    background-color:transparent;
+    border:0;
+    outline:0;
+    cursor:pointer;
+}
+
+.messagesender_top form:hover{
+    background-color: rgb(211 211 211/61%);
+}
+.messagesender_bottom{
+    margin-top:5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top:1px solid lightgray;
+    padding: 5px;
+}
+
+.messengerOptions{
+    display:flex;
+    align-items: center;
+    color:rgb(85, 80, 80);
+    font-weight: 500;
+    border-radius: 5px;
+    padding:8px;
+    cursor:pointer;
+}
+
+.messengerOptions:hover{
+    background-color: rgb(211 211 211/31%);
+}
+.messengerOptions svg{
+    margin-right: 10px;
+    transform: scale(1.2);
+}
+
+.MuiModal-root .MuiBackdrop-root{
+    background-color: rgba(255, 255, 255, 0.65);
+}
+.modal_pop{
+    top:45%;
+    background-color: white;
+    width:500px;
+    margin-left:450px;
+    position:relative;
+    transform: translatey(-45%);
+    padding:10px;
+    outline:0;
+    border-radius: 10px;
+    box-shadow: 0px 5px 17px -7px rgb(0,0,0,0.75);
+}
+
+.modalHeading{
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    height:40px;
+}
+
+.modalHeading .MuiIconButton-root{
+    color:lightgray;
+    position:absolute;    
+    top:5px;
+    right:5px;
+}
+
+.modal_headerTop{
+    display: flex;
+    padding: 15px 0px;
+    align-items: center;
+}
+
+.modal_headerTop h5{
+    margin-left:10px;
+}
+
+.modalBody textarea{
+    width:100%;
+    min-height:100px;
+    border:0;
+    font-size:25px;
+    outline:0;
+    padding-top:10px 0px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+
+.modal_footer{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border:1px solid lightgray;
+    border-radius: 10px;
+    margin-bottom:20px;
+    padding:0px 10px;
+}
+
+.modal_footerLeft p{
+    font-weight: 500;
+}
+.publishBox{
+    text-align: center;
+    position: relative ;
+}
+.prePublishImg{
+    width:70px;
+    border-radius: 5px;
+}
+.publishBox span{
+    position:absolute;
+    top:0;
+}
+
+.cancelImage{
+    position: absolute;
+    right: -15px;
+    top: -15px;;
+}
+.post_submit{
+    width:100%;
+    background-color: #1B74E4;
+    padding:10px 20px;
+    color:#fff;
+    border-radius: 10px;
+    border:0;
+    outline:0;
+    font-size:16px;
+    font-weight: 550;
+    cursor:pointer;
+}

@@ -1,0 +1,95 @@
+.header{
+    display:flex;
+    padding: 5px 20px;
+    background-color:#ffff;
+    position:sticky;
+    top:0;
+    z-index:99;
+    justify-content: space-between;
+    box-shadow: 0px 0px 3px #ccc;
+}
+.header_left{
+    display: flex;
+    align-items:center;
+}
+
+.header_left img{
+    height:40px;
+}
+
+.header__search{
+    display:flex;
+    align-items:center;
+    background-color:whitesmoke;
+    border-radius : 20px;
+    padding : 0px 10px;
+    height : 40px;
+    margin-left:20px;
+}
+
+.header__search input{
+    border:0;
+    outline:0;
+    background-color: transparent;
+    min-width: 200px;
+}
+
+.header_middle{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__option{
+    padding:5px 40px;
+    cursor:pointer;
+}
+
+.header__option:hover{
+    border-radius: 20px;
+    background-color:#F2F3F4;
+}
+
+.header__option svg{
+    color:gray;
+}
+.header__option svg:hover{
+    color:#1B74E4;
+}
+.header__option--active{
+    position: relative;
+}
+.header__option--active svg{
+    color:#1B74E4;
+}
+
+.header__option--active:after{
+    content:'';
+    position : absolute;
+    height:3px;
+    left:0;
+    right:0;
+    bottom:-5px;
+    background-color: #1B74E4;
+}
+
+.header_right{
+    display:flex;
+    align-items:center;
+}
+.header_right svg{
+    border-radius:20px;
+    padding:5px;
+    background-color: rgb(211 211 211/51%);
+    color:black;
+}
+
+.header_right svg:hover{
+    background-color: rgb(211 211 211);
+}
+
+.header__info .MuiAvatar-root{
+    width:30px;
+    height:30px;
+}
+

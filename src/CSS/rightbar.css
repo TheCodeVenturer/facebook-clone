@@ -1,0 +1,94 @@
+.menu{
+    padding-top: 30px;
+    margin-right: 10px;
+    position: sticky;
+    top:0;
+    flex:0.33;
+}
+
+.menu_header{
+    display:flex;
+    justify-content: space-between;
+    color:rgb(133, 127, 127);
+}
+
+.menu_header svg{
+    border-radius:20px;
+    padding:5px;
+    cursor:pointer;
+}
+.menu_header svg:hover{
+    background-color:rgb(211 211 211/41%);
+}
+.menu_body_parent{
+    display:flex;
+    align-items: center;
+    border-radius: 5px;
+    padding:5px;
+    cursor:pointer;
+}
+
+.menu_body_parent:hover{
+    background-color:rgb(211 211 211/41%);
+}
+.menu_body_parent .MuiAvatar-root{
+    margin-left: 10px;
+    height:30px;
+    width:30px;
+}
+
+.menu_body_parent h4{
+    margin-left:10px;
+}
+
+.menu_bodyOptions{
+    display:flex;
+    align-items: center;
+    margin-left:20px;
+    padding: 5px 2px;
+    border-radius: 10px;
+    color:rgb(84, 80, 80);
+    cursor: pointer;
+}
+
+.menu_bodyOptions p{
+    margin-left: 5px;
+    font-size:14px;
+    font-weight: 500;
+}
+.menu_bodyOptions:hover{
+    background-color:rgb(211 211 211/41%);
+}
+
+.menu hr{
+    margin-top: 10px;
+    padding: 0 5px;
+    height:0.5px;
+    border-style: none;
+    background-color: rgb(133, 127, 127);
+}
+
+.menu_footer{
+    margin-top:5px;
+}
+.menu__footerHead{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__footerHead svg{
+    margin-left:15px;
+    color:rgb(97, 94, 94);
+    border-radius:20px;
+    padding:5px;
+    cursor:pointer;
+}
+
+.menu__footerHead svg:hover{
+    background-color:rgb(211 211 211/41%);
+}
+
+.menu__footerHead h4{
+    color:rgb(133, 127, 127);
+}

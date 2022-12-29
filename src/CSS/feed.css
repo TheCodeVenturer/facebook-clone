@@ -1,0 +1,11 @@
+.feed{
+    flex:1;
+    padding-top: 30px;
+    padding-left: 170px;
+    padding-bottom: 30px;
+    padding-right: 70px;
+    display:flex;
+    flex-direction: column;
+    flex:0.33;
+    width:100%;
+}
